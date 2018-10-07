@@ -6,8 +6,8 @@
   height: 100%;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 3fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 3fr repeat(5, 2fr);
   grid-gap: 2px;
   padding: 2px;
   margin: 10px auto;
